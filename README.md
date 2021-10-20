@@ -1,65 +1,46 @@
-## Skyrat 13 (/tg/station Downstream)
+## ARTEMIS (a skyrat downstream)
 
-[![CI Suite](https://github.com/Skyrat-SS13/Skyrat-tg/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/Skyrat-SS13/Skyrat-tg/actions/workflows/ci_suite.yml)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/Skyrat-SS13/Skyrat-tg.svg)](https://isitmaintained.com/project/Skyrat-SS13/Skyrat-tg "Percentage of issues still open")
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Skyrat-SS13/Skyrat-tg.svg)](https://isitmaintained.com/project/Skyrat-SS13/Skyrat-tg "Average time to resolve an issue")
-![Coverage](https://img.shields.io/codecov/c/github/Skyrat-SS13/Skyrat-tg)
+[![CI Suite](https://github.com/ArtemisStation/artemis/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/ArtemisStation/artemis/actions/workflows/ci_suite.yml)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/ArtemisStation/artemis.svg)](https://isitmaintained.com/project/ArtemisStation/artemis "Percentage of issues still open")
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/ArtemisStation/artemis.svg)](https://isitmaintained.com/project/ArtemisStation/artemis "Average time to resolve an issue")
+![Coverage](https://img.shields.io/codecov/c/github/ArtemisStation/artemis)
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-resentment.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/contains-technical-debt.svg)](https://user-images.githubusercontent.com/8171642/50290880-ffef5500-043a-11e9-8270-a2e5b697c86c.png) [![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+![ohshit](https://raw.githubusercontent.com/ArtemisStation/artemis/master/oh-shit-the-syndicate.svg) ![witty](https://raw.githubusercontent.com/ArtemisStation/artemis/master/made-with-witty-badges.svg) ![edgy](https://raw.githubusercontent.com/ArtemisStation/artemis/master/edgy-roleplay.svg)
 
-* **Git / GitHub cheatsheet:** https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833
-* **Guide to Modularisation:** [./modular_skyrat/readme.md](./modular_skyrat/readme.md)
-* **Website:** https://www.tgstation13.org
-* **Code:** https://github.com/tgstation/tgstation
-* **Wiki:** https://tgstation13.org/wiki/Main_Page
-* **Codedocs:** https://codedocs.tgstation13.org/
-* **Skyrat 13 Discord:** https://discord.com/invite/hGpZ4Z3
-* **Coderbus Discord:** https://discord.gg/Vh8TJp9
-* ~~**IRC:** irc://irc.rizon.net/coderbus~~ (dead)
+* **SITE:** WIP
+* **SOURCE:** https://github.com/Skyrat-SS13/Skyrat-tg
+* **WIKI:** WIP
+* **SOURCE DOCS:** https://codedocs.tgstation13.org/
+* **DISCORD:** WIP
+* **CODERBUS:** https://discord.gg/Vh8TJp9
 
-This is Skyrat's downstream fork of /tg/station created in byond.
+ARTEMIS is a downstream fork of Skyrat, which is based on the /tg/station codebase.
 
-Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
-
-## DEVELOPMENT FLOWCHART
-![image](https://i.imgur.com/aJnE4WT.png)
-
-[Modularisation Guide](./modular_skyrat/readme.md)
+Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. ARTEMIS itself is an alternative take on the relationship between Nanotrasen, her workers, and the factions that are both allied to and hostile against her.
 
 ## DOWNLOADING
-[Downloading](.github/DOWNLOADING.md)
+[Downloading](.github/guides/DOWNLOADING.md)
 
-[Running on the server](.github/RUNNING_A_SERVER.md)
+[Running on the server](.github/guides/RUNNING_A_SERVER.md)
 
-[Maps and Away Missions](.github/MAPS_AND_AWAY_MISSIONS.md)
+## COMPILING
 
-## :exclamation: How to compile :exclamation:
+As of **2021-01-04**, we have changed the way to compile the codebase.
 
-On **2021-01-04** we have changed the way to compile the codebase.
+Find `BUILD.bat` here in the root folder of ARTEMIS, and double click it to initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile. You can then [setup the server](.github/guides/RUNNING_A_SERVER.md) normally by opening `tgstation.dmb` in DreamDaemon.
 
-Find `BUILD.bat` here in the root folder of tgstation, and double click it to initiate the build. It consists of multiple steps and might take around 1-5 minutes to compile.
-
-After it finishes, you can then [setup the server](.github/RUNNING_A_SERVER.md) normally by opening `tgstation.dmb` in DreamDaemon.
-
-**Building tgstation in DreamMaker directly is now deprecated and might produce errors**, such as `'tgui.bundle.js': cannot find file`.
+*Building ARTEMIS in DreamMaker directly is now deprecated and might produce errors, such as `'tgui.bundle.js': cannot find file`.*
 
 **[How to compile in VSCode and other build options](tools/build/README.md).**
 
-## Requirements for contributors
-[Guidelines for Contributors](.github/CONTRIBUTING.md)
+## CONTRIBUTORS
 
-[/tg/station HACKMD account](https://hackmd.io/@tgstation) - Design documentation here
-
-[Documenting your code](.github/AUTODOC_GUIDE.md)
-
-[Policy configuration system](.github/POLICYCONFIG.md)
-
-[Interested in some starting lore?](https://github.com/tgstation/common_core)
-
-## Current Skyrat Modules
+## CURRENT UPSTREAM MODULES
 * **IC Spawning**: https://github.com/Skyrat-SS13/Skyrat-tg/pull/104
 * **Horrorform**: https://github.com/Skyrat-SS13/Skyrat-tg/pull/241
 * **Blueshield**: https://github.com/Skyrat-SS13/Skyrat-tg/pull/127
+
+## CURRENT ARTEMIS MODULES
 
 ## LICENSE
 
